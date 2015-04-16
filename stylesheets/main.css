@@ -1,11 +1,55 @@
+*
+{
+    margin: 0 auto;
+}
 body
 {
     padding: 0;
     margin: 0;
+    color: white;
+    background-color: #cbcbcb;
 }
 
 #bg
 {
     width: 100%;
     height: 100%;
+    z-index:-1;
+}
+#topbar
+{
+    background: #fc9453;
+    padding: 10px 20px;
+    top: 0;
+    left: 0;
+    z-index: 2000;
+    width:100%;
+    height: 30%;
+    box-shadow:  5px 10px 20px rgba(0 ,0 ,0,0.6);
+    margin-bottom: 25px;
+    /*background: -webkit-linear-gradient(rgba(0, 0, 0, 0.90),  rgba(0, 0, 0, 0.00)); /* For Safari 5.1 to 6.0 */
+    /*background: -o-linear-gradient(rgba(0, 0, 0, 0.90), rgba(0, 0, 0, 0.00)); /* For Opera 11.1 to 12.0 */
+    /*background: -moz-linear-gradient(rgba(0, 0, 0, 0.90), rgba(0, 0, 0, 0.00)); /* For Firefox 3.6 to 15 */
+    /*background: linear-gradient(rgba(0, 0, 0, 0.90), rgba(0, 0, 0, 0.00)); /* Standard syntax */
+    font-family: Times New Roman, serif;
+    font-size: 90;
+    font-kerning:none;
+}
+
+.content
+{
+    background-color: white;
+    width: 60%;
+    height: 100%;
+    padding:20px;
+    box-shadow:  5px 10px 20px rgba(0 ,0 ,0,0.6);
+    color: #0e0e0e;
+}
+
+h1
+{
+    font-family: Helvetica;
+    font-weight: 100;
+    margin-bottom: 20px;
+    color: ;
 }
